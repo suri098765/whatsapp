@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta property="og:title" content="CSE Farewell - Madikeri Trip Photos">
+    <meta property="og:description" content="Click to view the full high-resolution album from our trip.">
+    <meta property="og:image" content="https://yourusername.github.io/project/IMG_7118.JPG">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <title>Photo Gallery</title>
+
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; padding-top: 50px; }
+        .loader { border: 16px solid #f3f3f3; border-top: 16px solid #3498db; border-radius: 50%; width: 60px; height: 60px; animation: spin 2s linear infinite; margin: 20px auto; }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+    </style>
+</head>
+<body>
+    <h1>Loading Gallery...</h1>
+    <div class="loader"></div>
+    <p>Please wait while we redirect you to the high-resolution images.</p>
+
+    <script>
+        // After 2 seconds, redirect the mentor to your target URL
+        setTimeout(function() {
+            window.location.href = "https://www.google.com"; // Change to your actual target
+        }, 2500);
+    </script>
+</body>
+</html>
